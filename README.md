@@ -1,5 +1,7 @@
 # SeLoadDriverPrivilege
 
+> Since Windows 10 Version 1803, the "SeLoadDriverPrivilege" is not exploitable, as it is no longer possible to include references to registry keys under "HKEY_CURRENT_USER".
+
 ## With GUI
 
 After executing `.\ExpoitCapcom.exe` a cmd as `NT AUTHORITY\SYSTEM` will pop up
